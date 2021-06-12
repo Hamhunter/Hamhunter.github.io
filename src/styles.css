@@ -5,7 +5,7 @@ body{
 
 }
 section {
-  background-color: yellow;
+  background-color: white;
   border: solid 1px black;
 }
 .hero {
@@ -15,8 +15,11 @@ section {
   font-size: 40px;
 }
 footer {
-  height: 500px;
+  /* height: 500px; */
+  padding: 80px;
   background-color: black;
+  color: #fff;
+  text-align: center;
 }
 nav {
   display: flex;
@@ -43,12 +46,13 @@ p {
 .button {
   width: 200px;
   height: 50px;
-  background-color: coral;
+  background-color: teal;
   border-radius: 30px;
   font-size: 30px;
   text-align: center;
   font-weight: 300;
-  padding: 5px;
+  padding-top: 5px;
+  
 }
 .hero-area {
   display: flex;
@@ -58,7 +62,7 @@ p {
 }
 .button:hover {
   background-color: #1c1d25;
-  border: #ef744b solid 2px;
+  border: teal solid 2px;
 }
 .socials {
   padding-bottom: 200px;
@@ -89,6 +93,44 @@ h2{
 }
 .project-card{
     width: 300px;
+    /* height: 500px; */
+    box-shadow: 5px 5px 20px rgb(212, 210, 210);
+}
+.project-container{
     display: flex;
-    border:1px solid black
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+}
+.subtext{
+    padding: 8px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.project-image{
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 125px;
+}
+hr{
+    margin:0px 20px 0px 20px
+}
+.project-link{
+    background-color: teal;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 16px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
 }
