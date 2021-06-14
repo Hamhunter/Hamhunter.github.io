@@ -6,7 +6,6 @@ body{
 }
 section {
   background-color: white;
-  border: solid 1px black;
 }
 .hero {
   background-color: #1c1d25;
@@ -133,4 +132,19 @@ hr{
 a{
     text-decoration: none;
     color: white;
+}
+.hamburger{
+   display: none;
+}
+@media only screen and (max-width:1000px) {
+    .hamburger{
+        display: block;
+        border:0;
+        background-color: transparent;
+        color: #fff;
+        font-size: 30px;
+    }
+    ul{
+        display: none;
+    }
 }
