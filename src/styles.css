@@ -85,6 +85,7 @@ h2 {
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  margin-bottom: 200px;
 }
 .headshot-container {
   display: flex;
@@ -108,7 +109,7 @@ h2 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* padding: 50px; */
+  padding: 50px;
   margin: 10px;
 }
 .subtext {
@@ -160,4 +161,9 @@ a {
   scroll-snap-type: y proximity;
   overflow-y: scroll;
   height: 100vh;
+}
+.info{
+  /* text-align: justify; */
+  line-height: 1.6;
+  width: 60%;
 }
